@@ -29,7 +29,7 @@ function WalletButton({ provider, loadWeb3Modal, logoutOfWeb3Modal }) {
         if (!provider) {
           loadWeb3Modal();
         } else {
-          logoutOfWeb3Modal();``
+          logoutOfWeb3Modal();
         }
       }}
     >
